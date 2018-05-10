@@ -1,0 +1,39 @@
+.topbar {
+	position: fixed;
+	width: 100%;
+	background-color: #F2F2F2;
+	text-align: center;
+}
+
+.masthead-brand {
+	display: inline-block;
+}
+
+.nav-masthead {
+	display: inline-block;
+}
+
+.heading-font {
+	font-family: 'Cinzel', serif;
+}
+
+#home-page {
+	background-image: url('../img/home-page-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-position: -50px;*/
+}
+
+#museum-heading {
+	font-size: 9vw;
+	color: #f2f2f2;
+	opacity: 0.7;
+}
+
+.heading-border {
+	content: ' ';
+	height: 10px;
+	width: 100%;
+	background-color: #F2F2F2;
+	opacity: 0.7;
+}
