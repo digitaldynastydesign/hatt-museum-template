@@ -7,6 +7,12 @@
 
 .masthead-brand {
 	display: inline-block;
+	font-size: 2vw;
+}
+
+.masthead-number {
+	font-size: 1vw;
+	font-weight: 500;
 }
 
 .nav-masthead {
@@ -15,6 +21,14 @@
 
 .heading-font {
 	font-family: 'Cinzel', serif;
+}
+
+.sub-heading-font {
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.body-font {
+	font-family: 'Lato', sans-serif;
 }
 
 #home-page {
