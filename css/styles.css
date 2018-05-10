@@ -1,23 +1,8 @@
-.topbar {
-	position: fixed;
-	width: 100%;
-	background-color: #F2F2F2;
-	text-align: center;
-}
+/*#E4002B*/
 
-.masthead-brand {
-	display: inline-block;
-	font-size: 2vw;
-}
-
-.masthead-number {
-	font-size: 1vw;
-	font-weight: 500;
-}
-
-.nav-masthead {
-	display: inline-block;
-}
+/**
+*** General ***
+**/
 
 .heading-font {
 	font-family: 'Cinzel', serif;
@@ -30,6 +15,80 @@
 .body-font {
 	font-family: 'Lato', sans-serif;
 }
+
+.red-color {
+	color: #E4002B;
+}
+
+.red-bg {
+	background-color: #E4002B;
+}
+
+.gray-color {
+	color: #F2F2F2;
+}
+
+.gray-bg {
+	background-color: #F2F2F2;
+}
+
+.black-color {
+	color: #000000;
+}
+
+.black-bg {
+	background-color: #000000;
+}
+
+/**
+*** /General ***
+**/
+
+/**
+*** Topbar *** 
+**/
+.topbar {
+	position: fixed;
+	width: 100%;
+	background-color: #F2F2F2;
+	text-align: center;
+}
+
+.topbar .btn:hover {
+	color: #E4002B;
+	
+	transition: color 0.2s;
+	-webkit-transition: color 0.2s;
+	-moz-transition: color 0.2s;
+	-o-transition: color 0.2s;
+}
+
+.masthead-brand {
+	display: inline-block;
+	font-size: 2vw;
+	margin: 5px 0px;
+}
+
+.masthead-number {
+	font-size: 1vw;
+	font-weight: 500;
+}
+
+.nav-masthead {
+	display: inline-block;
+}
+
+.topbar-border {
+	content: ' ';
+	height: 3px;
+	width: 100%;
+}
+
+/**
+*** /Topbar *** 
+**/
+
+
 
 #home-page {
 	background-image: url('../img/home-page-bg.jpg');
@@ -48,6 +107,5 @@
 	content: ' ';
 	height: 10px;
 	width: 100%;
-	background-color: #F2F2F2;
 	opacity: 0.7;
 }
