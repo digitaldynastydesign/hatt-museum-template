@@ -40,6 +40,30 @@
 	background-color: #000000;
 }
 
+.social-media-link {
+	display: inline-block;
+	transition: color 0.2s;
+	-webkit-transition: color 0.2s
+	-moz-transition: color 0.2s;
+	-o-transition: color 0.2s;
+}
+
+.social-media-link#facebook-link:hover i {
+	color: #4267B2;
+}
+
+.social-media-link#twitter-link:hover i {
+	color: #1DA1F2;
+}
+
+.social-media-link#google-plus-link:hover i {
+	color: #DC5043;
+}
+
+.social-media-link#phone-link:hover i {
+	color: #00CB0D;
+}
+
 /**
 *** /General ***
 **/
@@ -51,7 +75,6 @@
 	position: fixed;
 	width: 100%;
 	background-color: #F2F2F2;
-	text-align: center;
 }
 
 .topbar .btn:hover {
@@ -84,14 +107,32 @@
 	width: 100%;
 }
 
+.nav-item a {
+	color: #000000;
+	font-size: 1.5rem;
+}
+
+.nav-item a:hover {
+	color: #E4002B;
+	
+	transition: color 0.2s;
+	-webkit-transition: color 0.2s;
+	-moz-transition: color 0.2s;
+	-o-transition: color 0.2s;
+}
+
+
 /**
 *** /Topbar *** 
 **/
 
 
+/**
+*** Home Page ***
+**/
 
 #home-page {
-	background-image: url('../img/home-page-bg.jpg');
+	background-image: url('../img/home-page-bg2.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	/*background-position: -50px;*/
@@ -103,9 +144,21 @@
 	opacity: 0.7;
 }
 
+#museum-tagline {
+	font-size: 2vw;
+}
+
+#home-page-social i {
+	opacity: 0.7;
+}
+
 .heading-border {
 	content: ' ';
 	height: 10px;
 	width: 100%;
-	opacity: 0.7;
+	/*opacity: 0.7;*/
 }
+
+/**
+*** /Home Page ***
+**/
