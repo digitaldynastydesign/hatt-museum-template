@@ -75,6 +75,7 @@
 	position: fixed;
 	width: 100%;
 	background-color: #F2F2F2;
+	z-index: 100;
 }
 
 .topbar .btn:hover {
@@ -84,6 +85,10 @@
 	-webkit-transition: color 0.2s;
 	-moz-transition: color 0.2s;
 	-o-transition: color 0.2s;
+}
+
+.topbar .btn:focus {
+	box-shadow: none;
 }
 
 .masthead-brand {
@@ -159,6 +164,32 @@
 	/*opacity: 0.7;*/
 }
 
+.page {
+	position: relative;
+}
+
+.scroll-icon {
+	bottom: 10px;
+	text-align: center;
+}
+
+.scroll-icon i {
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+}
+
 /**
 *** /Home Page ***
+**/
+
+/**
+*** Events Page ***
+**/
+#events-page {
+	background-image: url('../img/home-page-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/**
+*** /Events Page ***
 **/
