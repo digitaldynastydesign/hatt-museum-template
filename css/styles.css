@@ -190,6 +190,19 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.page-heading h1{
+	position: relative;
+}
+
+.page-heading h1::before{
+	content: ' ';
+	position: absolute;
+	background-color: #E4002B;
+	height: 100%;
+	width: 5px;
+	left: -10px;
+}
 /**
 *** /Events Page ***
 **/
