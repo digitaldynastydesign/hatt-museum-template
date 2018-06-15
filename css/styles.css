@@ -36,8 +36,8 @@
 	color: #000000;
 }
 
-.black-bg {
-	background-color: #000000;
+.bg-black {
+	background-color: #000000 !important;
 }
 
 .social-media-link {
@@ -199,10 +199,51 @@
 	content: ' ';
 	position: absolute;
 	background-color: #E4002B;
-	height: 100%;
-	width: 5px;
-	left: -10px;
+	height: 5px;
+	width: 60%;
+	bottom: -3px;
+	right: 0px;
 }
+
+.event {
+	position: relative;
+	width: 500px;
+	margin-top: 75px;
+}
+
+.event::before {
+	content: ' ';
+	position: absolute;
+	height: 2px;
+	background-color: #FFFFFF;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.event::after {
+	content: ' ';
+	position: absolute;
+	height: 2px;
+	background-color: #FFFFFF;
+	width: 85%;
+	bottom: -10px;
+	left: 0;
+}
+
+.event-meta {
+	font-size: 17px;
+}
+
+.event-icons {
+	right: 0;
+	bottom: -25px;
+}
+
+.event-icons i {
+	font-size: 25px;
+}
+
 /**
 *** /Events Page ***
 **/
